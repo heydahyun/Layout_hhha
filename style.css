@@ -19,7 +19,6 @@ body:hover {
     display: grid;
     border: 0px solid white;
     grid-template-columns: 1fr 1fr;
-    /* grid-gap: 10px; */
     margin: 0px;
 }
 
@@ -27,16 +26,12 @@ body:hover {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* background-color: gold; */
     background-color: black;
-    /* border-radius: 15px; */
     padding: 0px;
-    /* grid-gap: 10px; */
     justify-content: center;
 }
 
 .target {
-    /* width: 100%; */
     border-radius: 25px;
     height: 100%;
     background-color: blue;
@@ -45,7 +40,6 @@ body:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border-radius: 15px; */
     box-shadow: inset 10em 10em red;
     
 }
@@ -60,11 +54,8 @@ p {
     text-shadow: 4px 4px 0px black;
     font-size: 80px;
     line-height: 100%;
-    /* letter-spacing: -10px; */
     padding: 0px;
     background-color: red;
-    /* border-radius: 15px; */
-    /* height: 0px; */
     font-family: 'basic';
     cursor: pointer;
 }
@@ -76,11 +67,8 @@ p {
 
 
 #pieces {
-    /* border-radius: 15px; */
     display: grid;
-    /* background-color: red; */
     background-color: black;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* grid-gap: 10px; */
     justify-content: center;
 }
